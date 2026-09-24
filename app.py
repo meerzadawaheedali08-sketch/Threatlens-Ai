@@ -1,5 +1,3 @@
-
-
 import streamlit as st
 
 from config import APP_NAME
