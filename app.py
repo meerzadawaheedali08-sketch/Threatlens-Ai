@@ -7,7 +7,6 @@ from risk_engine import calculate_risk
 from gemini_analyzer import analyze_with_gemini
 from report_generator import build_report, report_to_json, report_to_txt
 from styles import load_css, risk_class, risk_icon
-
 st.set_page_config(page_title=APP_NAME, page_icon="🛡️", layout="wide")
 load_css()
 
